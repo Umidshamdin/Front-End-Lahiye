@@ -1,0 +1,107 @@
+.bacground {
+  background-color: blue;
+  height: 40px;
+}
+
+.bacground p {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+ul li {
+  margin-left: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.secury-information {
+  margin-left: 50px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.secury-information span {
+  margin-left: 10px;
+}
+
+.select {
+  margin-top: 10px;
+}
+
+.logo img {
+  width: 160px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.logo p {
+  font-size: 10px;
+  margin-left: 10px;
+  color: gray;
+}
+
+.location {
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+  width: 200px;
+  height: 63px;
+}
+
+.location p {
+  font-size: 15px;
+}
+
+.location i {
+  margin-left: 20px;
+  position: absolute;
+  top: 22px;
+}
+
+.form-inputs {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form-inputs .form-control {
+  height: 55px;
+  width: 550px;
+  border-radius: 10px;
+}
+
+.form-inputs i {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.login-basket {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.login-basket i {
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
