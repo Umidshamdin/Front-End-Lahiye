@@ -1,13 +1,13 @@
-.bacground {
-  background-color: blue;
+.bacground-header {
+  background-color: darkblue;
   height: 40px;
 }
 
-.bacground p {
+.bacground-header p {
   text-align: center;
   padding: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 ul {
@@ -103,5 +103,242 @@ ul li a {
   margin-left: 20px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.dropdown-submenu {
+  position: relative;
+  color: black;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.image {
+  border: 1px solid #b8afaf;
+  margin-top: 50px;
+}
+
+.image img {
+  height: 230px;
+}
+
+.image h5 {
+  text-align: center;
+}
+
+.image p {
+  text-align: center;
+}
+
+.exam {
+  position: relative;
+}
+
+.write {
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  width: 380px;
+}
+
+.write .btn {
+  width: 150px;
+  height: 40px;
+  background-color: #5a5abd;
+  color: white;
+  border-radius: 13px;
+}
+
+.write h2 {
+  color: red;
+}
+
+.write span {
+  font-size: 15px;
+  color: black;
+}
+
+.write .fas {
+  margin-left: -29px;
+  margin-top: 10px;
+}
+
+.write i {
+  color: white;
+}
+
+.items {
+  position: relative;
+}
+
+.items .card {
+  text-align: center;
+  border: 1px solid #b8afaf;
+  width: 250px;
+  margin-top: 50px;
+}
+
+.items .card img {
+  width: 200px;
+  margin-left: 25px;
+}
+
+.items .card p {
+  font-size: 13px;
+}
+
+.items .card a {
+  text-decoration: none;
+  color: black;
+}
+
+.items .card2 {
+  border: 1px solid #b8afaf;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 133px;
+  width: 222px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.items .card2 img {
+  width: 60px;
+  margin-top: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.items .card2 h6 {
+  margin-top: 30px;
+  position: absolute;
+  left: 80px;
+}
+
+.items .card2 p {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.items .card2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.items .card3, .items .card4, .items .card5, .items .card6 {
+  position: absolute;
+  left: 250px;
+  top: 183px;
+  border: 1px solid #b8afaf;
+  width: 222px;
+  height: 133px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.items .card3 img, .items .card4 img, .items .card5 img, .items .card6 img {
+  width: 60px;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.items .card3 h6, .items .card4 h6, .items .card5 h6, .items .card6 h6 {
+  margin-top: 30px;
+  position: absolute;
+  left: 80px;
+}
+
+.items .card3 p, .items .card4 p, .items .card5 p, .items .card6 p {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.items .card3 a, .items .card4 a, .items .card5 a, .items .card6 a {
+  text-decoration: none;
+  color: black;
+}
+
+.items .card4 {
+  position: absolute;
+  left: 472px;
+}
+
+.items .card5 {
+  position: absolute;
+  left: 694px;
+}
+
+.items .card6 {
+  position: absolute;
+  left: 916px;
+}
+
+.time {
+  border: 2px solid red;
+  margin-top: 50px;
+  width: 350px;
+}
+
+.time p {
+  font-size: 20px;
+  margin-left: 30px;
+  background-color: red;
+  width: 200px;
+  text-align: center;
+}
+
+.time img {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.time h6 {
+  margin-left: 30px;
+  margin-top: 40px;
+  color: darkblue;
+  font-size: 20px;
+}
+
+.time h3 {
+  font-size: 10px;
+  margin-left: 30px;
+  color: gray;
+}
+
+.time h4 {
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.time h5 {
+  margin-left: 20px;
+}
+
+.time a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.time .icons {
+  margin-left: 20px;
+}
+
+.time .icons i {
+  color: orange;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
