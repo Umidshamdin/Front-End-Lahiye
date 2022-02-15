@@ -5,8 +5,6 @@ $(document).ready(function(){
       e.preventDefault();
     });
   });
-
-
   // Set the date we're counting down to
 var countDownDate = new Date("Mart 5, 2022 15:37:25").getTime();
 
