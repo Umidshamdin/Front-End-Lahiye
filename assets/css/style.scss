@@ -1,6 +1,12 @@
-.bacground-header{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+.background-header{
     background-color: darkblue;
-    height: 40px;
+    height: 42px;
     p{
        text-align: center;
        padding: 10px;
@@ -8,41 +14,71 @@
        font-size: 13px;
     }
 }
-ul{
-    display: flex;
-    list-style-type: none;
+.pages-enter{
+    
     padding: 10px;
-   
-    li{
-        margin-left: 10px;
-        a{
-            text-decoration: none;
-            font-size: 15px;
-            color: black;
-            cursor: pointer;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin-left: 10px;
+            a{
+                text-decoration: none;
+                font-size: 13px;
+                color: black;
+                cursor: pointer;
+            }
+            &:hover a{
+                display: block;
+                color: blue;
+            }  
         }  
-    }  
+    }
 }
 .secury-information{
     margin-left: 50px;
     padding: 10px;
     font-size: 15px;
     span{
-        margin-left: 10px;
+        margin-left: 5px;
+    }
+    i{
+        font-size: 18px;
     }
 }
 .select{
     margin-top: 10px; 
+    .dropdown{
+        margin-left: 20px;
+        .dropdown-content {
+            border: 1px solid white;
+            text-align: center;
+            height: 140px;
+            width: 100px;
+           display: none;
+           position: absolute;
+           background-color: #f1f1f1;
+           z-index: 1;
+        }
+    }
+   .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .dropdown:hover .dropdown-content {display: block;}
 }
 .logo{
     img{
-    width: 160px;
+    width: 170px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 13px;
     }
     p{
         font-size: 10px;
         margin-left: 10px;
+        margin-top: 2px;
         color: gray;
     }
 }
@@ -87,86 +123,85 @@ ul{
         font-size: 20px;
         cursor: pointer;
     }
-}
-.dropdown-submenu {
-    position: relative;
-   color: black;
-  }
-  .dropdown{
-    .btn{
-        width: 170px;
-        height: 50px;
-        background-color: rgb(90, 90, 189);
-        // color: white;
-        border-radius: 13px;
+}   
+
+.select-category{
+   .category{
+       border: 1px solid red;
+       height: 50px;
+       width: 200px;
+       text-align: center;
+       border-radius: 20px;
+       .dropdown{
+        margin-left: 20px;
+        .dropdown-content {
+            border: 1px solid white;
+            text-align: center;
+            height: 140px;
+            width: 100px;
+           display: none;
+           position: absolute;
+           background-color: #f1f1f1;
+           z-index: 1;
+        }
     }
-  }
-  
-  .dropdown-submenu .dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -1px;
-  }
-
-  .dropbtn {
-    // background-color: #04AA6D;
-    // color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: flex;
-  
-    
-  }
-  .one{
-      margin-left: 50px;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
- //   .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
- //   .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-  .exams{
-      margin-left: 100px;
-  }
-
- 
-  .image{
-      border: 1px solid rgb(184, 175, 175);;
-      margin-top: 50px;
-      img{
-          height: 230px;
+   .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
       }
-      h5{
-          text-align: center;
-      }
-      p{
-          text-align: center;
-      }
-  }
+    .dropdown:hover .dropdown-content {display: block;}
+   }
+}
+
+//     .dropdown{
+//         margin-left: 20px;
+//         .dropdown-content {
+//             border: 1px solid white;
+//             text-align: center;
+//             height: 140px;
+//             width: 100px;
+//            display: none;
+//            position: absolute;
+//            background-color: #f1f1f1;
+//            z-index: 1;
+//         }
+//         .w3-button{
+//             width: 200px;
+//             height: 50px;
+//             border-radius: 20px;
+            
+//         }
+//     }
+//    .dropdown-content a {
+//         color: black;
+//         padding: 12px 16px;
+//         text-decoration: none;
+//         display: block;
+//       }
+    //   .dropdown:hover .dropdown-content {display: block;}
+      
+
+
+
+
+
+}
+
+//   .image{
+//       border: 1px solid rgb(184, 175, 175);;
+//       margin-top: 50px;
+//       img{
+//           height: 230px;
+//       }
+//       h5{
+//           text-align: center;
+//       }
+//       p{
+//           text-align: center;
+//       }
+//   }
   .exam{
       position: relative;
   }
@@ -178,7 +213,7 @@ ul{
       .btn{
           width: 150px;
           height: 40px;
-          background-color: rgb(90, 90, 189);
+          background-color: #2bbef9;
           color: white;
           border-radius: 13px;
       }
@@ -189,6 +224,13 @@ ul{
           font-size: 15px;
           color: black;
       }
+      .red{
+          color: red;
+      }
+      .green{
+          background-color: green;
+          height: 10px;
+      }
       .fas{
           margin-left: -29px;
           margin-top: 10px; 
@@ -196,6 +238,7 @@ ul{
       i{
         color: white;
     }
+    
   }
   .items{
 
@@ -305,8 +348,8 @@ ul{
   .time{
       border: 2px solid red;
       margin-top:50px;
-      width: 350px;
-      height: 800px;
+      width: 375px;
+      height: 900px;
     p {
       
        font-size: 20px;
@@ -317,6 +360,7 @@ ul{
     }
     img{
         width: 300px;
+       
         margin-left: 20px;
     }
     h6{
@@ -368,11 +412,6 @@ ul{
 
     }
 
-    %extend-card2{
-
-
-    }
-
     .basket2{
         height: 400px;
         
@@ -382,82 +421,15 @@ ul{
         }
     }
     
-    .star{
-        .carding{
-            width: 250px;
-        }
-        border: 1px solid black;
-        margin-top:50px;
-        width: 350px;
-        height: 400px;
-      p {
-        
-         font-size: 20px;
-         margin-left: 30px;
-         background-color: red;
-         width: 200px;
-         text-align: center;
-      }
-      img{
-          width: 200px;
-          margin-left: 20px;
-      }
-      h6{
-          margin-left: 30px;
-          margin-top: 40px;
-          color: darkblue;
-          font-size: 20px;
-      }
-      h3{
-          font-size: 10px;
-          margin-left: 30px;
-          color: gray;
-      }
-      h4{
-          font-size: 13px;
-          margin-left: 20px;
-      }
-      h5{
-          margin-left: 20px;
-      }
-      a{
-          width: 40px;
-          margin-left: 10px;
-          text-decoration: none;
-          color: black;
-      }
-      .icons{
-          margin-left: 20px;
-          i{
-              color: orange;
-              font-size: 10px;
-          }
-      }
-    }
+    
     .flex-image{
         display: flex;
         margin-top: 60px;
         img{
-            width: 600px;
+            width: 550px;
             height: 230px;
             margin-left: 20px;
         }
-    }
-    .card3{
-        .card{
-            width: 100px;
-            height: 350px;
-            &:hover .heart{
-                display: block;
-            }
-        }
-        .heart{
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 100px;
-        }
-        
     }
     .save{
         margin-top: 50px;
@@ -465,15 +437,17 @@ ul{
         background-color: orange;
         height: 70px;
         h2{
-            margin-left: 200px;
-            margin-top: 10px;
+            margin-left: 40px;
+            margin-top: 20px;
+            text-align: center;
+            align-items: center;
         }
     }
     %extend-h6{
         background-color: aqua;
         color: white;
         width: 50px;
-        height: 40px;
+        height: 27px;
         border-radius: 3px;
         text-align: center;
         justify-content: center;
@@ -481,37 +455,243 @@ ul{
         margin-left: 10px;
     }
     .card-very{
-        
+      
         .card{
+            position: relative;
+            
             width: 250px;
-            height: 430px;
+            height: 460px;
             h6{
                @extend %extend-h6;
             }
             img{
                 width: 200px;
+                margin-left: 20px;
             }
-            
+            a{
+                color: black;
+                text-decoration: none;
+            }
+            p{
+                font-size: 10px;
+                color: green;
+                margin-top: 20px;
+            }
+            h5{
+                margin-top: 10px;
+                font-size: 15px;
+            }
+            .icons{
+                i{
+                    color: orange;
+                    font-size: 10px;
+                }
+            }
+            &:hover .heart{
+                display: block;
+            }
+            &:hover .btns{
+                display: block;
+            }
+            &:hover .exs{
+                display: block;
+            }
         }
-       
+        .heart{
+            @extend %extend-heart;
+        }
+        .exs{
+            @extend %extend-expand;
+        }
+         .btns{
+            @extend %extend-btn
+         }
+        %extend-heart{
+            display: none;
+            position: absolute;
+            top: 70px;
+            left: 200px;
+            font-size: 30px;
+            color: black;
+            background-color: white;
+            cursor: pointer;
+        }
+        %extend-btn{
+            display: none;
+            position: absolute;
+            top: 400px;
+            left: 10px;
+            background-color: darkblue;
+            border-radius: 15px;
+            color: white;
+            margin-left: 20px;
+            margin-top: 15px;
+            width: 200px;
+            height: 35px;
+        }
+        %extend-expand{
+            display: none;
+            position: absolute;
+            top: 15px;
+            left: 205px;
+            font-size: 25px;
+            color: black;
+            background-color: white;
+            cursor: pointer;
+        }
     }
     .card-very2{
-        
         .card{
+            position: relative;
             width: 250px;
-            height: 430px;
+            height: 460px;
+            h6{
+               @extend %extend-h6;
+            }
+            img{
+                width: 200px;
+                margin-left: 20px;
+            }
+            a{
+                color: black;
+                text-decoration: none;
+            }
+            p{
+                font-size: 10px;
+                color: green;
+                margin-top: 20px;
+            }
+            h5{
+                margin-top: 10px;
+                font-size: 15px;
+            }
+            .icons{
+                i{
+                    color: orange;
+                    font-size: 10px;
+                }
+            }
+            &:hover .heart{
+                display: block;
+            }
+            &:hover .btns{
+                display: block;
+            }
+            &:hover .exs{
+                display: block;
+            }
         }
-        h6{
-            @extend %extend-h6;
+        .heart{
+            @extend %extend-heart;
+        }
+        .exs{
+            @extend %extend-expand;
+        }
+         .btns{
+            @extend %extend-btn
+         }
+        %extend-heart{
+            display: none;
+            position: absolute;
+            top: 70px;
+            left: 200px;
+            font-size: 30px;
+            color: black;
+            background-color: white;
+            cursor: pointer;
+        }
+        %extend-btn{
+            display: none;
+            position: absolute;
+            top: 400px;
+            left: 10px;
+            background-color: darkblue;
+            border-radius: 15px;
+            color: white;
+            margin-left: 20px;
+            margin-top: 15px;
+            width: 200px;
+            height: 35px;
+        }
+        %extend-expand{
+            display: none;
+            position: absolute;
+            top: 15px;
+            left: 205px;
+            font-size: 25px;
+            color: black;
+            background-color: white;
+            cursor: pointer;
         }
     }
-  
+    .images{
+        img{
+            width: 450px;
+            padding: 10px;
+        }
+    }
+    #fin{
+       
+        .finish{
+            position: relative;
+           
+            background-color: blue;
+            width: 100%;
+            
+            height: 300px;
+            padding: 200px;
+            .image{
+                img{
+                    position: absolute;
+                    width: 400px;
+                    height: 200px;
+                    right: 200px;
+                    top: 150px;
 
-  
-  
- 
+                }
+            }
+          
+        }
+    }
+    #fiss{
+        .row{
+            margin-top: 200px;
+            .uls{
+                margin-left: 20px;
+               
+            }
+        }
 
-  
+    }
+    
+    #tele{
+        .row{
+            margin-top: 100px;
+            position: relative;
+            p{
+                font-size:10px;
+            }
+            .down{
+                margin-left: 470px;
+                p{
+                    font-size: 15px;
+                }
 
+            }
+            .icon{
+                margin-left: 10px;
+                
+            }
+            .tel{
+                margin-top: 100px;
+               
+                
+            }
 
-  
+        }
+        
+    }    
+    
+    
+    
+    

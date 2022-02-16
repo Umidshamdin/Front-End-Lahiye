@@ -8,114 +8,106 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/path/to/bootstrap-submenu.min.css">
+    <script src="/path/to/bootstrap-submenu.min.js"></script>
     <title>Front-End-Lahiye</title>
 </head>
 
 <body>
     <header>
-        <div class="bacground-header">
-            <p>Due to the <b>COVID 19</b> epidemic, orders may be processed with a slight delay </p>
-        </div>
-        <div class="container">
-            <div class="row d-flex">
-                <div class="ul">
-                    <ul>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">My contact</a></li>
-                        <li><a href="">Wishlist</a></li>
-                        <li><a href="">Order Tracking</a></li>
-                    </ul>
-                </div>
-                <div class="secury-information">
-                    <i class="far fa-hand-paper"></i> <span>100% Secure delivery without contacting the courier</span>
-
-                    <span>Need help? Call Us:</span><a href="">+002050</a>
-                </div>
-                <div class="select">
-                    <select>
-                        <option value="0">English</option>
-                        <option value="1">Spanish</option>
-                        <option value="2">German</option>
-
-                    </select>
-                    <select>
-                        <option value="0">USD</option>
-                        <option value="1">INR</option>
-                        <option value="2">GBP</option>
-
-                    </select>
-                </div>
-
-                <div class="logo">
-                    <img src="./assets/img/bacola-logo.png" alt="">
-                    <p>Online Grocery Shopping Center</p>
-                </div>
-                <div class="location">
-                    <p>Your location</p>
-                    <a href="">Select a Location</a>
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="form-inputs d-flex">
-                    <input class="form-control" type="text" placeholder="Search any product..."> <i
-                        class="fas fa-search"></i>
-                </div>
-
-                <div class="login-basket d-flex">
-                    <div class="login-enter">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="basket">
-                        <i class="fas fa-shopping-basket"></i>
-                    </div>
-                </div>
+        <section id="header">
+            <div class="background-header">
+                <p>Due to the <b>COVID 19</b> epidemic, orders may be processed with a slight delay </p>
             </div>
-            <div class="container d-flex exam">
-                <div class="dropdown">
-                    <!-- <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">ALL CATEGORIES -->
-                    <button class="btn" type="button">ALL CATEGORIES</button>
-                    <!-- 
-                        <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-submenu">
-                            <a class="test" tabindex="-1" href="#">Fruits & Vegetables<span class="caret"></span></a>
-                        <li><a href="">Meats & Seafood</a></li>
-                        <li><a href="">Breakfast & Dairy</a></li>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="test" tabindex="-1" href="#">Beverages<span class="caret"></span></a>
-                        <li><a href="">Breads & Bakery</a></li>
-                        <li><a href="">Frozen Foods</a></li>
-                        <li><a href="">Biscuits & Snacks</a></li>
-                        <li><a href="">Grocery & Staples</a></li> -->
-                </div>
-                <div class="exams">
-                    <div class="dropdown">
-                        <button class="dropbtn">Home</button>
-                        <div class="dropdown-content">
-                            <a href="#">Home 1</a>
-                            <a href="#">Home 2</a>
-                            <a href="#">Home 3</a>
-                            <a href="#">Home 4</a>
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="pages-enter">
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">My contact</a></li>
+                            <li><a href="">Wishlist</a></li>
+                            <li><a href="">Order Tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="secury-information">
+                        <i class="far fa-hand-paper"></i> <span>100% Secure delivery without contacting the
+                            courier</span>
+                        <span>Need help? Call Us:</span><a href="">+0020 500</a>
+                    </div>
+                    <div class="select d-flex">
+                        <div class="dropdown">
+                            <p>English</p>
+                            <div class="dropdown-content">
+                                <a href="#">English</a>
+                                <a href="#">Spanish</a>
+                                <a href="#">German</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <p>USD</p>
+                            <div class="dropdown-content">
+                                <a href="#">USD</a>
+                                <a href="#">IRN</a>
+                                <a href="#">GBP</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img src="./assets/img/bacola-logo.png" alt="">
+                        <p>Online Grocery Shopping Center</p>
+                    </div>
+                    <div class="location">
+                        <p>Your location</p>
+                        <a href="">Select a Location</a>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="form-inputs d-flex">
+                        <input class="form-control" type="text" placeholder="Search any product..."> <i
+                            class="fas fa-search"></i>
+                    </div>
+                    <div class="login-basket d-flex">
+                        <div class="login-enter">
+                            <i class="far fa-user"></i>
+                        </div>
+                        <div class="basket">
+                            <i class="fas fa-shopping-basket"></i>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+
+                    <div class="category">
 
 
-                <div class="dropdown one">
-                    <button class="dropbtn">Shop</button>
-                    <div class="dropdown-content">
-                        <!-- <a href="#">Home 1</a>
-                      <a href="#">Home 2</a>
-                      <a href="#">Home 3</a>
-                      <a href="#">Home 4</a> -->
 
+                        
+
+
+
+
+
+                        <!-- <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                              Dropdown button
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">English</a>
+                                <a href="#">Spanish</a>
+                                <a href="#">German</a>
+                            </div> -->
+                            <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Fruits & Vegetables</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div> -->
+                          <!-- </div> -->
                     </div>
-                </div>
-            </div>
-        </div>
 
-        </div>
-        </div>
+
+
+                </div>
+
+        </section>
     </header>
 
     <main>
@@ -123,9 +115,28 @@
             <div class="carousel-inner mt-3">
                 <div class="carousel-item active exam">
                     <img class="d-block w-100" src="./assets/img/sekil1.jfif" alt="First slide">
+
+                    <div class="write">
+                        <p>EXCLUSIVE OFFER <span class="green">-20% OFF</span></p>
+                        <h1>A different kind of grocery store</h1>
+                        <p>Only this week.Don't miss...</p>
+        
+                        <h2> <span>from</span>$7.99</h2>
+                        <button class="btn" type="button">Shop Now</button>
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="./assets/img/sekil2.jfif" alt="Second slide">
+                    <div class="write">
+                        <p>EXCLUSIVE OFFER <span class="green">-40% OFF</span></p>
+                        <h1> Quality  Freshness Guaranteed!</h1>
+                        <p>Only this week.Don't miss...</p>
+        
+                        <h2 class="red"> <span>from</span>$14.35</h2>
+                        <button class="btn" type="button">Shop Now</button>
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
                 </div>
 
             </div>
@@ -137,16 +148,6 @@
                 <span class="carousel-control-next-icon right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-
-            <div class="write">
-                <p>EXCLUSIVE OFFER -20% OFF</p>
-                <h1>A different kind of grocery store</h1>
-                <p>Only this week.Don't miss...</p>
-
-                <h2> <span>from</span>$7.99</h2>
-                <button class="btn" type="button">Shop Now</button>
-                <i class="fas fa-long-arrow-alt-right"></i>
-            </div>
         </div>
 
 
@@ -217,330 +218,682 @@
                         <p>5 items</p>
                     </div>
                 </div>
-                <div class="timer-cart-all">
-                    <div class="timer-cart d-flex">
-                        <div class="time">
-                            <h6>Deals of the <b>week</b>!</h6>
-                            <p id="demo"></p>
-                            <h3>Remains until the end of the offer</h3>
-                            <img src="./assets/img/product-image-50.jpg" alt="">
-                            <h5>$5.49 $4.49</h5>
-                            <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                            <h4>1 kq IN STOCK</h4>
-                            <div class="icons">
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span> 1
-                            </div>
-                        </div>
-                        <div class="card basket2 star" style="width: 18rem;">
-                            <img src="./assets/img/product-image-62.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-
-                                <a href="">All Natural Italian-Style Chicken Meatballs </a>
-                                <h4>1 kq IN STOCK</h4>
-                                <div class="icons">
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span> 1
-                                </div>
-                                <h5>$5.49 $4.49</h5>
-                            </div>
-                        </div>
-                        <div class="card basket2 star" style="width: 18rem;">
-                            <img src="./assets/img/product-image-60-346x310.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                                <h4>1 kq IN STOCK</h4>
-                                <div class="icons">
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span> 1
-                                </div>
-                                <h5>$5.49 $4.49</h5>
-                            </div>
-                        </div>
-                        <div class="card basket2 star" style="width: 18rem;">
-                            <img src="./assets/img/product-image-46-346x310.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                                <h4>1 kq IN STOCK</h4>
-                                <div class="icons">
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span> 1
-                                </div>
-                                <h5>$5.49 $4.49</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timer-cart2 d-flex">
-
-                        <div class="card basket2 star" style="width: 18rem;">
-                            <img src="./assets/img/product-image-45-346x310.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                                <h4>1 kq IN STOCK</h4>
-                                <div class="icons">
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span> 1
-                                </div>
-                                <h5>$5.49 $4.49</h5>
-                            </div>
-                        </div>
-                        <div class="card basket2 star" style="width: 18rem;">
-                            <img src="./assets/img/product-image-59-346x310.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                                <h4>1 kq IN STOCK</h4>
-                                <div class="icons">
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span> 1
-                                </div>
-                                <h5>$5.49 $4.49</h5>
-                            </div>
-                        </div>
-                        <div class="card basket2 star" style="width: 18rem;">
-                            <img src="./assets/img/product-image-58-346x310.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                                <h4>1 kq IN STOCK</h4>
-                                <div class="icons">
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span> 1
-                                </div>
-                                <h5>$5.49 $4.49</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="flex-image">
-                    <img src="./assets/img/sekil1.jfif" alt="">
-                    <img src="./assets/img/sekil2.jfif" alt="">
-
-                </div>
-
-                <div class="card3 d-flex">
-                    <div class="card basket2 star" style="width: 18rem;">
-                        <img src="./assets/img/product-image-59-346x310.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                            <h4>1 kq IN STOCK</h4>
-                            <div class="icons">
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span> 1
-                            </div>
-                            <h5>$5.49 $4.49</h5>
-                        </div>
-                    </div>
-                    <div class="card basket2 star" style="width: 18rem;">
-                        <img src="./assets/img/product-image-59-346x310.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                            <h4>1 kq IN STOCK</h4>
-                            <div class="icons">
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span> 1
-                            </div>
-                            <h5>$5.49 $4.49</h5>
-                        </div>
-                    </div>
-                    <div class="card basket2 star" style="width: 18rem;">
-                        <img src="./assets/img/product-image-59-346x310.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                            <h4>1 kq IN STOCK</h4>
-                            <div class="icons">
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span> 1
-                            </div>
-                            <h5>$5.49 $4.49</h5>
-                        </div>
-                    </div>
-                    <div class="card basket2 star" style="width: 18rem;">
-                        <img src="./assets/img/product-image-59-346x310.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
-                            <h4>1 kq IN STOCK</h4>
-                            <div class="icons">
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span> 1
-                            </div>
-                            <h5>$5.49 $4.49</h5>
-
-                            <i class="fas fa-heart heart"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="save">
-                    <h2>SAVE AN EXSTRA 5-10 % ON EVERY AUTOSHIP ORDER!</h2>
-                </div>
 
                 <div class="container">
                     <div class="row">
-                        <div class="card-very d-flex">
-                            <div class="card">
-                                <h6>26%</h6>
-                                <img src="./assets/img/product-image-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                        <div class="col-4">
+                            <div class="time">
+                                <h6>Deals of the <b>week</b>!</h6>
+                                <p id="demo"></p>
+                                <h3>Remains until the end of the offer</h3>
+                                <img src="./assets/img/product-image-50.jpg" alt="">
+                                <h5>$5.49 $4.49</h5>
+                                <a href=""><b>Chobani Complete Vanilla Greek Yogurt</b> </a>
+                                <h4>1 kq IN STOCK</h4>
+                                <div class="icons">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span> 1
                                 </div>
                             </div>
-                            <div class="card">
-                                <h6>40%</h6>
-                                <img src="./assets/img/product-image-2-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="card-very">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card-very">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card-very">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card-very">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card-very">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card-very mt-0">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <h6>26%</h6>
-                                <img src="./assets/img/product-image-3-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex-image">
+                                    <img src="./assets/img/sekil1.jfif" alt="">
+                                    <img src="./assets/img/sekil2.jfif" alt="">
                                 </div>
                             </div>
-                            <div class="card">
-                                <h6>26%</h6>
-                                <img src="./assets/img/product-image-4-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <h6>14%</h6>
-                                <img src="./assets/img//product-image-5-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                           
                         </div>
 
-                        <div class="card-very2 d-flex">
-                            <div class="card">
-                                <h6>38%</h6>
-                                <img src="./assets/img//product-image-7-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="container">
+                            <div class="row">
+                                <div class="card-very d-flex">
+
+                                    <div class="col-2">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-2">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-2">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-2">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
-                            <div class="card">
-                                <h6>31%</h6>
-                                <img src="./assets/img//product-image-9-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                            <div class="save">
+                                <h2>SAVE AN EXSTRA 5-10 % ON EVERY AUTOSHIP ORDER!</h2>
+                            </div>
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="card-very d-flex">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="card-very2 d-flex">
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <h6>26%</h6>
+                                            <img src="./assets/img/product-image-346x310.jpg" class="card-img-top"
+                                                alt="...">
+                                            <div class="card-body">
+                                                <a href="">Zevia Kids Strawberry Lemonade Zero Calorie</a>
+                                                <p>IN STOCK</p>
+                                                <div class="icons">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 1
+                                                </div>
+                                                <h5>$7.95 $5.95</h5>
+                                                <i class="fab fa-gratipay heart"></i>
+                                                <i class="fas fa-expand-arrows-alt exs"></i>
+                                                <button class="btns">Buy product</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <h6>15%</h6>
-                                <img src="./assets/img/product-image-11-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="container">
+                                <div class="row mt-5 images">
+                                    <div class="col-4">
+                                        <img src="./assets/img/bacola-banner-05.jpg" alt="">
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./assets/img/bacola-banner-06.jpg" alt="">
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./assets/img/bacola-banner-10.jpg" alt="">
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./assets/img/blog-3-370x260.jpg" alt="">
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./assets/img/blog-5-370x260.jpg" alt="">
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./assets/img/blog-1-370x260.jpg" alt="">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <h6>25%</h6>
-                                <img src="./assets/img/product-image-12-346x310 (1).jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <h6>21%</h6>
-                                <img src="./assets/img//product-image-14-346x310.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-            </div>
-
-        </div>
-        </div>
     </main>
+
+    <footer>
+        <section id="fin">
+
+            <div class="finish">
+                <p>$20 discount for your first order</p>
+                <h3>Join our newsletter and get...</h3>
+                <p>Join our email subscription now to get updates on promotions and coupons.</p>
+
+                <div class="input">
+                    <input type="text" placeholder="Your email address">
+                    <input type="submit">
+
+                </div>
+                <div class="image">
+                    <img src="./assets/img/coupon.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="fi">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <i class="fas fa-home"></i> <span>Everyday fresh products</span>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-home"></i> <span>Everyday fresh products</span>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-home"></i> <span>Everyday fresh products</span>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-home"></i> <span>Everyday fresh products</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fiss">
+
+            <div class="container">
+                <div class="row d-flex">
+
+                    <div class="uls">
+                        <ul>
+                            <li><a href=""> Fruit and vegetables</a></li>
+                            <li>Fresh vegetables</li>
+                            <li>Herbs & Seosonings</li>
+                            <li>Fresh Fruits</li>
+                            <li> Cuts & Sprouts</li>
+                            <li>Exotic Fruits & Veggies</li>
+                            <li>Packaged Produse</li>
+                            <li>Party Trays</li>
+                        </ul>
+                    </div>
+                    <div class="uls">
+                        <ul>
+                            <li>Fruit and vegetables</li>
+                            <li>Fresh vegetables</li>
+                            <li>Herbs & Seosonings</li>
+                            <li>Fresh Fruits</li>
+                            <li> Cuts & Sprouts</li>
+                            <li>Exotic Fruits & Veggies</li>
+                            <li>Packaged Produse</li>
+                            <li>Party Trays</li>
+                        </ul>
+                    </div>
+                    <div class="uls">
+                        <ul>
+                            <li>Fruit and vegetables</li>
+                            <li>Fresh vegetables</li>
+                            <li>Herbs & Seosonings</li>
+                            <li>Fresh Fruits</li>
+                            <li> Cuts & Sprouts</li>
+                            <li>Exotic Fruits & Veggies</li>
+                            <li>Packaged Produse</li>
+                            <li>Party Trays</li>
+                        </ul>
+                    </div>
+                    <div class="uls">
+                        <ul>
+                            <li>Fruit and vegetables</li>
+                            <li>Fresh vegetables</li>
+                            <li>Herbs & Seosonings</li>
+                            <li>Fresh Fruits</li>
+                            <li> Cuts & Sprouts</li>
+                            <li>Exotic Fruits & Veggies</li>
+                            <li>Packaged Produse</li>
+                            <li>Party Trays</li>
+                        </ul>
+                    </div>
+                    <div class="uls">
+                        <ul>
+                            <li>Fruit and vegetables</li>
+                            <li>Fresh vegetables</li>
+                            <li>Herbs & Seosonings</li>
+                            <li>Fresh Fruits</li>
+                            <li> Cuts & Sprouts</li>
+                            <li>Exotic Fruits & Veggies</li>
+                            <li>Packaged Produse</li>
+                            <li>Party Trays</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tele">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="tel">
+                        <i class="fas fa-phone-alt"></i> <span><b>8 800 555-55</b></span>
+                        <p>Working 8:00-22:00</p>
+                    </div>
+                    <div class="ivonss d-flex">
+                        <div class="down">
+                            <h5><b>Download App on Mobile :</b></h5>
+
+                            <p>15% discount on your first purchase</p>
+                        </div>
+                        <div class="icon">
+                            <img src="./assets/img/google-play.png" alt="">
+                            <img src="./assets/img/app-store.png" alt="">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram-square"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -549,6 +902,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/path/to/bootstrap.min.css">
+    <script src="/path/to/jquery.min.js"></script>
+    <script src="/path/to/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/f04cd3c8f5.js" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
