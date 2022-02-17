@@ -57,9 +57,35 @@
                         <p>Online Grocery Shopping Center</p>
                     </div>
                     <div class="location">
-                        <p>Your location</p>
+                        <!-- <p>Your location</p>
                         <a href="">Select a Location</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down"></i> -->
+                        <p>Modal Example</p>
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                            data-target="#myModal">Open Modal</button>
+                            
+
+                             
+                        <!-- Modal -->
+
+                        <div class="shop-header">
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+    
+                                 
+                                    <div class="modal-content">
+                                       <ul>
+                                           <li>
+                                               dd
+                                           </li>
+                                       </ul>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                       
                     </div>
                     <div class="form-inputs d-flex">
                         <input class="form-control" type="text" placeholder="Search any product..."> <i
@@ -74,38 +100,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
 
-                    <div class="category">
+                <div class="container">
+                    <div class="row">
 
+                        <div class="category">
+    
+                            <div class="dropdown">
+                                <div class="dropdown show">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Dropdown link
+                                    </a>
+                                  
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                  </div>
+                              </div>
+    
+                        </div>
 
+                        <div class="home">
+                            <div class="dropdown">
+                                <p>Home</p>
+                                <!-- <i class="fab fa-500px"></i> -->
+                                <div class="dropdown-content">
+                                  <a href="#">Home 1</a>
+                                  <a href="#">Home 2</a>
+                                  <a href="#">Home 3</a>
+                                  <a href="#">Home 4</a>
+                                  <a href="#">Home 5</a>
 
-                        
+                                </div>
+                              </div>
+    
+                        </div>
+                        <div class="shop-header">
+                            <div class="dropdown">
+                                <p>Home</p>
+                                <!-- <i class="fab fa-500px"></i> -->
+                                <div class="dropdown-content">
+                                 
 
-
-
-
-
-                        <!-- <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-                              Dropdown button
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">English</a>
-                                <a href="#">Spanish</a>
-                                <a href="#">German</a>
-                            </div> -->
-                            <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Fruits & Vegetables</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                            </div> -->
-                          <!-- </div> -->
+                                </div>
+                              </div>
+                        </div>
+    
                     </div>
-
-
-
                 </div>
+               
 
         </section>
     </header>
@@ -120,7 +165,7 @@
                         <p>EXCLUSIVE OFFER <span class="green">-20% OFF</span></p>
                         <h1>A different kind of grocery store</h1>
                         <p>Only this week.Don't miss...</p>
-        
+
                         <h2> <span>from</span>$7.99</h2>
                         <button class="btn" type="button">Shop Now</button>
                         <i class="fas fa-long-arrow-alt-right"></i>
@@ -130,9 +175,9 @@
                     <img class="d-block w-100" src="./assets/img/sekil2.jfif" alt="Second slide">
                     <div class="write">
                         <p>EXCLUSIVE OFFER <span class="green">-40% OFF</span></p>
-                        <h1> Quality  Freshness Guaranteed!</h1>
+                        <h1> Quality Freshness Guaranteed!</h1>
                         <p>Only this week.Don't miss...</p>
-        
+
                         <h2 class="red"> <span>from</span>$14.35</h2>
                         <button class="btn" type="button">Shop Now</button>
                         <i class="fas fa-long-arrow-alt-right"></i>
@@ -423,7 +468,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="col-2">
                                         <div class="card">
                                             <h6>26%</h6>
@@ -468,7 +513,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="col-2">
                                         <div class="card">
                                             <h6>26%</h6>
@@ -491,7 +536,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="col-2">
                                         <div class="card">
                                             <h6>26%</h6>
@@ -514,7 +559,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
 
@@ -732,28 +777,42 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="container">
-                                <div class="row mt-5 images">
-                                    <div class="col-4">
-                                        <img src="./assets/img/bacola-banner-05.jpg" alt="">
-                                    </div>
-                                    <div class="col-4">
-                                        <img src="./assets/img/bacola-banner-06.jpg" alt="">
-                                    </div>
-                                    <div class="col-4">
-                                        <img src="./assets/img/bacola-banner-10.jpg" alt="">
-                                    </div>
-                                    <div class="col-4">
-                                        <img src="./assets/img/blog-3-370x260.jpg" alt="">
-                                    </div>
-                                    <div class="col-4">
-                                        <img src="./assets/img/blog-5-370x260.jpg" alt="">
-                                    </div>
-                                    <div class="col-4">
-                                        <img src="./assets/img/blog-1-370x260.jpg" alt="">
+
+                            <section id="images">
+                                <div class="container">
+                                    <div class="row mt-5">
+                                        <div class="imgs">
+                                            <div class="col-4">
+                                                <!-- <div class="upp"> -->
+                                                <img src="./assets/img/bacola-banner-05.jpg" alt="">
+                                                <!-- <p>WEEKEND DISCOUNT 20%</p>
+                                                <h1>Natural Eggs</h1>
+                                                <h6>Eat one every day</h6>
+                                                <button>Shop Now</button>
+                                                </div> -->
+
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="./assets/img/bacola-banner-06.jpg" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="./assets/img/bacola-banner-10.jpg" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="./assets/img/blog-3-370x260.jpg" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="./assets/img/blog-5-370x260.jpg" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="./assets/img/blog-1-370x260.jpg" alt="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
-                            </div>
+                            </section>
+
 
                         </div>
                     </div>
@@ -764,13 +823,13 @@
         <section id="fin">
 
             <div class="finish">
-                <p>$20 discount for your first order</p>
+                <h5>$20 discount for your first order</h5>
                 <h3>Join our newsletter and get...</h3>
                 <p>Join our email subscription now to get updates on promotions and coupons.</p>
 
-                <div class="input">
-                    <input type="text" placeholder="Your email address">
-                    <input type="submit">
+                <div class="input d-flex">
+                    <input class="form-control one" type="text" placeholder="Your email address">
+                    <input class="form-control two" type="submit" value="Subscribe">
 
                 </div>
                 <div class="image">
@@ -786,13 +845,14 @@
                         <i class="fas fa-home"></i> <span>Everyday fresh products</span>
                     </div>
                     <div class="col-3">
-                        <i class="fas fa-home"></i> <span>Everyday fresh products</span>
+                        <i class="fas fa-caravan"></i> <span>
+                            Free delivery for order over $70</span>
                     </div>
                     <div class="col-3">
-                        <i class="fas fa-home"></i> <span>Everyday fresh products</span>
+                        <i class="fas fa-percent"></i> <span>Daily Mega Discounts</span>
                     </div>
                     <div class="col-3">
-                        <i class="fas fa-home"></i> <span>Everyday fresh products</span>
+                        <i class="fas fa-dollar-sign"></i> <span>Best price on the market</span>
                     </div>
                 </div>
             </div>
@@ -804,62 +864,68 @@
 
                     <div class="uls">
                         <ul>
-                            <li><a href=""> Fruit and vegetables</a></li>
-                            <li>Fresh vegetables</li>
-                            <li>Herbs & Seosonings</li>
-                            <li>Fresh Fruits</li>
-                            <li> Cuts & Sprouts</li>
-                            <li>Exotic Fruits & Veggies</li>
-                            <li>Packaged Produse</li>
-                            <li>Party Trays</li>
+                            <p><b>FRUIT & VEGETABLES</b></p>
+                            <li><a href=""> Fresh vegetables</a></li>
+                            <li><a href=""> Herbs & Seasoning</a></li>
+                            <li><a href=""> Fresh Fruits</a></li>
+                            <li><a href=""> Cuts & Sprouts</a></li>
+                            <li><a href=""> Exotic Fruits & Veggies</a></li>
+                            <li><a href=""> Packaged Produce</a></li>
+                            <li><a href=""> Party Trays</a></li>
                         </ul>
                     </div>
                     <div class="uls">
                         <ul>
-                            <li>Fruit and vegetables</li>
-                            <li>Fresh vegetables</li>
-                            <li>Herbs & Seosonings</li>
-                            <li>Fresh Fruits</li>
-                            <li> Cuts & Sprouts</li>
-                            <li>Exotic Fruits & Veggies</li>
-                            <li>Packaged Produse</li>
-                            <li>Party Trays</li>
+                            <p><b>BREAKFAST & DAIRY</b></p>
+                            <li><a href=""> Milk & Flavoured Milk</a></li>
+                            <li><a href=""> Butter and Margarine</a></li>
+                            <li><a href=""> Cheese</a></li>
+                            <li><a href=""> Eggs Substitutes</a></li>
+                            <li><a href="">Honey</a></li>
+                            <li><a href=""> Marmalades</a></li>
+                            <li><a href=""> Sour Cream and Dips</a></li>
+                            <li><a href=""> Yogurt</a></li>
                         </ul>
                     </div>
                     <div class="uls">
                         <ul>
-                            <li>Fruit and vegetables</li>
-                            <li>Fresh vegetables</li>
-                            <li>Herbs & Seosonings</li>
-                            <li>Fresh Fruits</li>
-                            <li> Cuts & Sprouts</li>
-                            <li>Exotic Fruits & Veggies</li>
-                            <li>Packaged Produse</li>
-                            <li>Party Trays</li>
+                            <p><b>MEAT & SEAFOOD</b></p>
+                            <li><a href=""> Breakfast Sausage</a></li>
+                            <li><a href=""> Dinner Sausage</a></li>
+                            <li><a href="">Beef</a></li>
+                            <li><a href=""> Chicken</a></li>
+                            <li><a href="">Sliced Deli Meat</a></li>
+                            <li><a href=""> Shrimp</a></li>
+                            <li><a href=""> Wild Caught Fillets</a></li>
+                            <li><a href="">Crab and Shellfish</a></li>
+                            <li><a href="">Farm Raised Fillets</a></li>
                         </ul>
                     </div>
                     <div class="uls">
                         <ul>
-                            <li>Fruit and vegetables</li>
-                            <li>Fresh vegetables</li>
-                            <li>Herbs & Seosonings</li>
-                            <li>Fresh Fruits</li>
-                            <li> Cuts & Sprouts</li>
-                            <li>Exotic Fruits & Veggies</li>
-                            <li>Packaged Produse</li>
-                            <li>Party Trays</li>
+                            <p><b>BEVERAGES</b></p>
+                            <li><a href=""> Water</a></li>
+                            <li><a href=""> Sparkling Water</a></li>
+                            <li><a href="">Soda & Pop</a></li>
+                            <li><a href=""> Coffee</a></li>
+                            <li><a href="">Milk & Plant-Based Milk</a></li>
+                            <li><a href=""> Tea & Kombucha</a></li>
+                            <li><a href=""> Drink Boxes & Pouches</a></li>
+                            <li><a href="">Craft Beer</a></li>
+                            <li><a href="">Wine</a></li>
                         </ul>
                     </div>
                     <div class="uls">
                         <ul>
-                            <li>Fruit and vegetables</li>
-                            <li>Fresh vegetables</li>
-                            <li>Herbs & Seosonings</li>
-                            <li>Fresh Fruits</li>
-                            <li> Cuts & Sprouts</li>
-                            <li>Exotic Fruits & Veggies</li>
-                            <li>Packaged Produse</li>
-                            <li>Party Trays</li>
+                            <p><b>BREADS & BAKERY</b></p>
+                            <li><a href=""> Milk & Flavoured Milk</a></li>
+                            <li><a href=""> Butter and Margarine</a></li>
+                            <li><a href="">Cheese</a></li>
+                            <li><a href=""> Eggs Substitutes</a></li>
+                            <li><a href="">Honey</a></li>
+                            <li><a href=""> Marmalades</a></li>
+                            <li><a href=""> Sour Cream and Dips</a></li>
+                            <li><a href="">Yogurt</a></li>
                         </ul>
                     </div>
                 </div>
@@ -886,9 +952,21 @@
                             <i class="fab fa-twitter"></i>
                             <i class="fab fa-instagram-square"></i>
                         </div>
-
                     </div>
 
+                    <div class="row d-flex">
+                        <div class="copy">
+                            <p>Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
+                        </div>
+                        <div class="polisy">
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms and Condition</a>
+                            <a href="">Cooks</a>
+                        </div>
+                        <div class="payment">
+                            <img src="./assets/img/payments (1).jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
