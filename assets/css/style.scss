@@ -103,7 +103,7 @@
         margin-top: 200px;
     }
     .modal-body{
-
+       
         .form-control{
             width: 100%;
             font-size: 15px;
@@ -120,6 +120,10 @@
             left: 20px;
             cursor: pointer;
         }
+        .ull{
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
         
        
         ul{
@@ -127,12 +131,21 @@
             width: 100%;
             height: 200px;
             list-style: none;
-            overflow-y: scroll;
             li{
-                span{
-                    margin-left: 250px;
-                }
+                width: 299px;
+                
+            a{
+                color: black;
+                text-decoration: none;
             }
+            &:hover a{
+                color: #2bbef9;
+            }
+            }
+          
+           span{
+            margin-left: 70px;
+           }
            
            
         }
@@ -159,7 +172,7 @@
 .form-inputs{
     position: relative;
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .form-inputs .form-control {
     height: 55px;
@@ -182,33 +195,148 @@
         font-size: 20px;
         cursor: pointer;
     }
+    a{
+        color: black;
+    }
 }}
 
 .home-list{
     .btn-primary{
         background-color: #2bbef9;
-        width: 170px;
+        width: 180px;
         height: 50px;
         text-align: center;
         border: 1px solid #2bbef9;
         border-radius: 20px;
+        i{
+            margin-left: 10px;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            font-size: 10px;
+            border: 1px solid white;
+            border-radius: 20px;
+            background-color: whitesmoke;
+            color: black;
+            margin-top: 10px;
+            width: 100px;
+            margin-left: 20px;
+        }
+       
+    }
+    .dropdown-menu{
+       height: 399px;
+       width: 250px;
+       text-align: center;
+       ul{
+           list-style: none;
+           margin-left: 10px;
+           margin-top: 20px;
+           a{
+               color: black;
+               text-decoration: none;
+           }
+           li{
+            &:hover a{
+                color: #2bbef9;
+            }
+            i{
+                color: gray;
+            }
+             
+           
+            &:hover i{
+                color: #2bbef9;
+            }
+            .dropdown{
+                margin-left: 20px;
+                width: 200px;
+                .dropdown-content {
+                    border: 1px solid white;
+                    text-align: center;
+                    height: 140px;
+                    width: 120px;
+                    
+                   display: none;
+                   position: absolute;
+                   top: 0;
+                   left: 165px;
+                   background-color: #f1f1f1;
+                   z-index: 10;
+                }
+            }
+          
+           .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              }
+            .dropdown:hover .dropdown-content {display: block;}
+            
+
+
+        }
+
+           
+
+
+          
+       }
+       .down{
+        border-top: 1px solid black;
+        
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
     }
 }
 .home{
-    margin-left: 210px;
+    margin-left: 150px;
+   
     .drop1{
+        
         .dropdown{
             margin-left: 20px;
+            margin-top: 15px;
+          
+          
             .dropdown-content {
                 border: 1px solid white;
-                text-align: center;
                 height: 250px;
-                width: 150px;
+                width: 170px;
                display: none;
                position: absolute;
                background-color: #f1f1f1;
-               z-index: 1;
+               z-index: 10;
+               
+               ul{
+                   list-style: none;
+                   a{
+                   
+                
+                    text-align: center;
+                }
+                li{
+                    &:hover a{
+                        color: #2bbef9;
+                    }
+                }
+               
+               }
+              
             }
+            i{
+                position: absolute;
+                
+                top: 4px;
+                left: 45px;
+            }
+           
+         
         }
         .dropdown-content a {
             color: black;
@@ -219,36 +347,51 @@
         .dropdown:hover .dropdown-content {display: block;}
     }
     .drop2{
-        margin-left: 10px;
+        
+        margin-top: 15px;
         .dropdown{
-            margin-left: 20px;
+            margin-left: 50px;
+            i{
+                position: absolute;
+                
+                top: 4px;
+                left: 40px;
+            }
             
             .dropdown-content {
                 display: flex;
                 border: 1px solid white;
-                text-align: center;
+                
                 height: 400px;
-                width: 800px;
+                width: 900px;
                 text-align: center;
                display: none;
                position: absolute;
                background-color: #f1f1f1;
                z-index: 10;
+               box-shadow: 100px 8px 16px 0px rgba(0, 0, 0, 0.2);
+               
                ul{
                    list-style: none;
                    
                    li{
                        display: flex;
+                       width: 175px;
                        text-align: center;
                        a{
                            margin-left: 10px;
+                           width: 220px;
+                       }
+                       &:hover a{
+                           color: #2bbef9;
                        }
                        b{
-                           margin-left: 30px;
+                           margin-left: 50px;
                        }
                    }
                }
             }
+            
         }
         .dropdown-content a {
             color: black;
@@ -261,20 +404,29 @@
    
 }
 .list{
-    margin-left: 30px;
-  
+    margin-top: 15px;
+  margin-left: 65px;
+
     a{
         padding: 10px;
         color: black;
         text-decoration: none;
     }
+    &:hover a{
+        color: #2bbef9;
+        border: 1px solid #2bbef9;
+        border-radius: 20px;
+    }
+    &:hover i{
+        color: #2bbef9;
+    }
     i{
         color: gray;
     }
 }
-  .exam{
-      position: relative;
-  }
+//   .exam{
+//       position: relative;
+//   }
   .write{
       position: absolute;
       top: 100px;

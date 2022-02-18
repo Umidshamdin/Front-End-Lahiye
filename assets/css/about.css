@@ -55,7 +55,7 @@
 }
 
 #header .secury-information span {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 #header .secury-information i {
@@ -94,7 +94,7 @@
 
 #header .logo img {
   width: 170px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 13px;
 }
 
@@ -106,12 +106,12 @@
 }
 
 #header .location {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
-#header .location .btn-primary {
-  width: 200px;
+#header .location .btn {
+  width: 220px;
   height: 70px;
   background-color: white;
   color: black;
@@ -119,19 +119,59 @@
   border-radius: 10px;
 }
 
-#header .location .modal-body ul {
-  list-style: none;
+#header .location .modal-dialog {
+  margin-top: 200px;
+}
+
+#header .location .modal-body .form-control {
+  width: 100%;
+  font-size: 15px;
+  padding: 30px;
+}
+
+#header .location .modal-body i {
+  font-size: 20px;
+}
+
+#header .location .modal-body .fa-search {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  cursor: pointer;
+}
+
+#header .location .modal-body .ull {
   overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#header .location .modal-body ul {
+  width: 100%;
+  height: 200px;
+  list-style: none;
+}
+
+#header .location .modal-body ul li {
+  width: 299px;
+}
+
+#header .location .modal-body ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+#header .location .modal-body ul li:hover a {
+  color: #2bbef9;
 }
 
 #header .location .modal-body ul span {
-  margin-left: 250px;
+  margin-left: 70px;
 }
 
 #header .form-inputs {
   position: relative;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 30px;
 }
 
 #header .form-inputs .form-control {
@@ -142,8 +182,10 @@
 
 #header .form-inputs i {
   position: absolute;
-  right: 10px;
-  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  top: 20px;
+  cursor: pointer;
 }
 
 #header .login-basket {
@@ -159,30 +201,132 @@
 
 .home-list .btn-primary {
   background-color: #2bbef9;
-  width: 170px;
+  width: 180px;
   height: 50px;
   text-align: center;
   border: 1px solid #2bbef9;
   border-radius: 20px;
 }
 
+.home-list .btn-primary i {
+  margin-left: 10px;
+}
+
+.home-list .btn-primary ul {
+  list-style: none;
+}
+
+.home-list .btn-primary li {
+  font-size: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 10px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.home-list .dropdown-menu {
+  height: 399px;
+  width: 250px;
+  text-align: center;
+}
+
+.home-list .dropdown-menu ul {
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.home-list .dropdown-menu ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.home-list .dropdown-menu ul li:hover a {
+  color: #2bbef9;
+}
+
+.home-list .dropdown-menu ul li i {
+  color: gray;
+}
+
+.home-list .dropdown-menu ul li:hover i {
+  color: #2bbef9;
+}
+
+.home-list .dropdown-menu ul li .dropdown {
+  margin-left: 20px;
+  width: 200px;
+}
+
+.home-list .dropdown-menu ul li .dropdown .dropdown-content {
+  border: 1px solid white;
+  text-align: center;
+  height: 140px;
+  width: 120px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 165px;
+  background-color: #f1f1f1;
+  z-index: 10;
+}
+
+.home-list .dropdown-menu ul li .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.home-list .dropdown-menu ul li .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.home-list .dropdown-menu .down {
+  border-top: 1px solid black;
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+
 .home {
-  margin-left: 210px;
+  margin-left: 150px;
 }
 
 .home .drop1 .dropdown {
   margin-left: 20px;
+  margin-top: 15px;
 }
 
 .home .drop1 .dropdown .dropdown-content {
   border: 1px solid white;
-  text-align: center;
   height: 250px;
-  width: 150px;
+  width: 170px;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  z-index: 1;
+  z-index: 10;
+}
+
+.home .drop1 .dropdown .dropdown-content ul {
+  list-style: none;
+}
+
+.home .drop1 .dropdown .dropdown-content ul a {
+  text-align: center;
+}
+
+.home .drop1 .dropdown .dropdown-content ul li:hover a {
+  color: #2bbef9;
+}
+
+.home .drop1 .dropdown i {
+  position: absolute;
+  top: 4px;
+  left: 45px;
 }
 
 .home .drop1 .dropdown-content a {
@@ -197,11 +341,17 @@
 }
 
 .home .drop2 {
-  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .home .drop2 .dropdown {
-  margin-left: 20px;
+  margin-left: 50px;
+}
+
+.home .drop2 .dropdown i {
+  position: absolute;
+  top: 4px;
+  left: 40px;
 }
 
 .home .drop2 .dropdown .dropdown-content {
@@ -209,14 +359,15 @@
   display: -ms-flexbox;
   display: flex;
   border: 1px solid white;
-  text-align: center;
   height: 400px;
-  width: 800px;
+  width: 900px;
   text-align: center;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   z-index: 10;
+  -webkit-box-shadow: 100px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 100px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .home .drop2 .dropdown .dropdown-content ul {
@@ -227,15 +378,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 175px;
   text-align: center;
 }
 
 .home .drop2 .dropdown .dropdown-content ul li a {
   margin-left: 10px;
+  width: 220px;
+}
+
+.home .drop2 .dropdown .dropdown-content ul li:hover a {
+  color: #2bbef9;
 }
 
 .home .drop2 .dropdown .dropdown-content ul li b {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .home .drop2 .dropdown-content a {
@@ -252,7 +409,8 @@
 }
 
 .list {
-  margin-left: 30px;
+  margin-top: 15px;
+  margin-left: 65px;
 }
 
 .list a {
@@ -261,7 +419,85 @@
   text-decoration: none;
 }
 
+.list:hover a {
+  color: #2bbef9;
+  border: 1px solid #2bbef9;
+  border-radius: 20px;
+}
+
+.list:hover i {
+  color: #2bbef9;
+}
+
 .list i {
   color: gray;
+}
+
+#image img {
+  margin-top: 15px;
+  width: 100%;
+  height: 650px;
+}
+
+#image .row {
+  position: relative;
+}
+
+#image .row p {
+  margin-top: 70px;
+}
+
+#image .row h1 {
+  width: 800px;
+  margin-left: 100px;
+}
+
+#image .row .between {
+  margin-left: 100px;
+}
+
+#image .row img {
+  width: 580px;
+  height: 800px;
+}
+
+#image .row .image-write {
+  position: relative;
+}
+
+#image .row .image-write .ceos {
+  margin-top: 100px;
+}
+
+#image .row .image-write .ceos h1 {
+  font-size: 30px;
+  width: 400px;
+  margin-left: 50px;
+}
+
+#image .row .image-write .ceos .down {
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 500px;
+  height: 10px;
+}
+
+#image .row .image-write .ceos .up {
+  margin-left: 50px;
+}
+
+#finish .row {
+  background-color: white;
+  position: absolute;
+  background-color: white;
+  margin-top: -120px;
+  margin-left: 80px;
+  width: 75%;
+  height: 110px;
+  padding: 70px;
+}
+
+#finish .row p {
+  margin-top: 100px;
 }
 /*# sourceMappingURL=about.css.map */
