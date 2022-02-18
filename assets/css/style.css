@@ -55,7 +55,7 @@
 }
 
 #header .secury-information span {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 #header .secury-information i {
@@ -94,7 +94,7 @@
 
 #header .logo img {
   width: 170px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 13px;
 }
 
@@ -106,29 +106,54 @@
 }
 
 #header .location {
-  text-align: center;
+  margin-top: 10px;
   margin-left: 20px;
-  margin-top: 20px;
+}
+
+#header .location .btn {
+  width: 220px;
+  height: 70px;
+  background-color: white;
+  color: black;
   border: 1px solid black;
-  border-radius: 20px;
-  position: relative;
-  width: 200px;
-  height: 63px;
+  border-radius: 10px;
 }
 
-#header .location p {
+#header .location .modal-dialog {
+  margin-top: 200px;
+}
+
+#header .location .modal-body .form-control {
+  width: 100%;
   font-size: 15px;
+  padding: 30px;
 }
 
-#header .location i {
-  margin-left: 20px;
+#header .location .modal-body i {
+  font-size: 20px;
+}
+
+#header .location .modal-body .fa-search {
   position: absolute;
-  top: 22px;
+  top: 60px;
+  left: 20px;
+  cursor: pointer;
+}
+
+#header .location .modal-body ul {
+  width: 100%;
+  height: 200px;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+#header .location .modal-body ul li span {
+  margin-left: 250px;
 }
 
 #header .form-inputs {
   position: relative;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 20px;
 }
 
@@ -140,8 +165,10 @@
 
 #header .form-inputs i {
   position: absolute;
-  right: 10px;
-  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  top: 20px;
+  cursor: pointer;
 }
 
 #header .login-basket {
@@ -155,67 +182,112 @@
   cursor: pointer;
 }
 
-#header .home {
-  margin-left: 300px;
+.home-list .btn-primary {
+  background-color: #2bbef9;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #2bbef9;
+  border-radius: 20px;
 }
 
-#header .home .dropdown {
+.home {
+  margin-left: 210px;
+}
+
+.home .drop1 .dropdown {
   margin-left: 20px;
-  position: relative;
 }
 
-#header .home .dropdown .dropdown-content {
-  border: 1px solid red;
+.home .drop1 .dropdown .dropdown-content {
+  border: 1px solid white;
   text-align: center;
-  height: 240px;
-  width: 200px;
+  height: 250px;
+  width: 150px;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   z-index: 1;
 }
 
-#header .home .dropdown-content a {
+.home .drop1 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  position: relative;
 }
 
-#header .home .dropdown:hover .dropdown-content {
+.home .drop1 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.shop-header {
-  margin-left: 50px;
+.home .drop2 {
+  margin-left: 10px;
 }
 
-.shop-header .dropdown {
-  margin-left: 0px;
+.home .drop2 .dropdown {
+  margin-left: 20px;
 }
 
-.shop-header .dropdown .dropdown-content {
-  border: 1px solid red;
+.home .drop2 .dropdown .dropdown-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid white;
   text-align: center;
-  height: 100%;
-  width: 100%;
+  height: 400px;
+  width: 800px;
+  text-align: center;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  z-index: 1;
+  z-index: 10;
 }
 
-.shop-header .dropdown-content a {
+.home .drop2 .dropdown .dropdown-content ul {
+  list-style: none;
+}
+
+.home .drop2 .dropdown .dropdown-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.home .drop2 .dropdown .dropdown-content ul li a {
+  margin-left: 10px;
+}
+
+.home .drop2 .dropdown .dropdown-content ul li b {
+  margin-left: 30px;
+}
+
+.home .drop2 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  position: relative;
 }
 
-.shop-header .dropdown:hover .dropdown-content {
-  display: block;
+.home .drop2 .dropdown:hover .dropdown-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list {
+  margin-left: 30px;
+}
+
+.list a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.list i {
+  color: gray;
 }
 
 .exam {
@@ -477,6 +549,86 @@
   margin-left: 20px;
 }
 
+.caruls .card {
+  position: relative;
+  width: 220px;
+  height: 430px;
+}
+
+.caruls .card img {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.caruls .card a {
+  color: black;
+  text-decoration: none;
+}
+
+.caruls .card p {
+  font-size: 10px;
+  color: green;
+  margin-top: 20px;
+}
+
+.caruls .card h5 {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.caruls .card .icons i {
+  color: orange;
+  font-size: 10px;
+}
+
+.caruls .card:hover .heart {
+  display: block;
+}
+
+.caruls .card:hover .btns {
+  display: block;
+}
+
+.caruls .card:hover .exs {
+  display: block;
+}
+
+.caruls .heart {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.caruls .btns {
+  display: none;
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  background-color: darkblue;
+  border-radius: 15px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+  width: 200px;
+  height: 35px;
+}
+
+.caruls .exs {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 185px;
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
 .save {
   margin-top: 50px;
   width: 100%;
@@ -493,7 +645,7 @@
           align-items: center;
 }
 
-.card-very .card h6, .card-very2 .card h6 {
+.caruls .card h6, .card-very .card h6, .card-very2 .card h6 {
   background-color: aqua;
   color: white;
   width: 50px;
