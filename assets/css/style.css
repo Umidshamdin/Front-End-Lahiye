@@ -81,6 +81,14 @@
   z-index: 1;
 }
 
+#header .select .dropdown .dropdown-content ul {
+  list-style: none;
+}
+
+#header .select .dropdown .dropdown-content ul li:hover a {
+  color: #2bbef9;
+}
+
 #header .select .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -160,6 +168,10 @@
   text-decoration: none;
 }
 
+#header .location .modal-body ul li .upp {
+  margin-left: 70px;
+}
+
 #header .location .modal-body ul li:hover a {
   color: #2bbef9;
 }
@@ -232,8 +244,8 @@
 }
 
 .home-list .dropdown-menu {
-  height: 399px;
-  width: 250px;
+  height: 330px;
+  width: 300px;
   text-align: center;
 }
 
@@ -261,21 +273,33 @@
 }
 
 .home-list .dropdown-menu ul li .dropdown {
-  margin-left: 20px;
-  width: 200px;
+  margin-left: 15px;
+  width: 250px;
 }
 
 .home-list .dropdown-menu ul li .dropdown .dropdown-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: 1px solid white;
   text-align: center;
-  height: 140px;
-  width: 120px;
+  height: 400px;
+  width: 250px;
+  margin-left: 106px;
   display: none;
   position: absolute;
   top: 0;
   left: 165px;
   background-color: #f1f1f1;
   z-index: 10;
+}
+
+.home-list .dropdown-menu ul li .dropdown .dropdown-content ul {
+  list-style: none;
+}
+
+.home-list .dropdown-menu ul li .dropdown .dropdown-content ul li:hover a {
+  color: #2bbef9;
 }
 
 .home-list .dropdown-menu ul li .dropdown-content a {
@@ -445,11 +469,11 @@
 }
 
 .write .btn {
-  width: 150px;
+  width: 140px;
   height: 40px;
   background-color: #2bbef9;
   color: white;
-  border-radius: 13px;
+  border-radius: 23px;
 }
 
 .write h2 {
@@ -467,7 +491,22 @@
 
 .write .green {
   background-color: green;
-  height: 10px;
+  height: 55px;
+  width: 50px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.write p {
+  font-size: 11px;
+}
+
+.write .two {
+  font-size: 18px;
+}
+
+.write .left {
+  background-color: red;
 }
 
 .write .fas {
@@ -487,18 +526,20 @@
 .items .card {
   text-align: center;
   border: 1px solid #b8afaf;
-  width: 250px;
+  width: 252px;
   height: 265px;
+  cursor: pointer;
   margin-top: 50px;
+  margin-left: 15px;
 }
 
 .items .card img {
-  width: 200px;
-  margin-left: 25px;
+  width: 168px;
+  margin-left: 45px;
 }
 
 .items .card p {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .items .card a {
@@ -511,7 +552,7 @@
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   height: 133px;
-  width: 222px;
+  width: 217px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -525,18 +566,18 @@
   margin-top: 20px;
   position: absolute;
   left: 10px;
-  top: 10px;
+  top: 5px;
 }
 
 .items .card2 h6 {
-  margin-top: 30px;
+  margin-top: 35px;
   position: absolute;
   left: 80px;
 }
 
 .items .card2 p {
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 110px;
 }
 
@@ -547,10 +588,10 @@
 
 .items .card3, .items .card4, .items .card5, .items .card6 {
   position: absolute;
-  left: 250px;
+  left: 267px;
   top: 183px;
   border: 1px solid #b8afaf;
-  width: 222px;
+  width: 217px;
   height: 133px;
   text-align: center;
   -webkit-box-pack: center;
@@ -568,12 +609,12 @@
 .items .card3 h6, .items .card4 h6, .items .card5 h6, .items .card6 h6 {
   margin-top: 30px;
   position: absolute;
-  left: 80px;
+  left: 60px;
 }
 
 .items .card3 p, .items .card4 p, .items .card5 p, .items .card6 p {
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 110px;
 }
 
@@ -584,37 +625,53 @@
 
 .items .card4 {
   position: absolute;
-  left: 472px;
+  left: 484px;
 }
 
 .items .card5 {
   position: absolute;
-  left: 694px;
+  left: 701px;
 }
 
 .items .card6 {
   position: absolute;
-  left: 916px;
+  left: 918px;
 }
 
 .time {
   border: 2px solid red;
   margin-top: 50px;
   width: 375px;
-  height: 970px;
+  height: 845px;
+}
+
+.time h1 {
+  background-color: red;
+  width: 70px;
+  height: 50px;
+  border-radius: 43px;
+  padding: 10px;
+  position: absolute;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  top: 330px;
+  left: 20px;
 }
 
 .time p {
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 30px;
+  margin-top: 50px;
   background-color: red;
-  width: 200px;
+  width: 300px;
   text-align: center;
 }
 
 .time img {
-  width: 300px;
-  margin-left: 20px;
+  width: 350px;
+  margin-top: 80px;
+  margin-left: 15px;
 }
 
 .time h6 {
@@ -625,7 +682,7 @@
 }
 
 .time h3 {
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 30px;
   color: gray;
 }
@@ -633,6 +690,7 @@
 .time h4 {
   font-size: 13px;
   margin-left: 20px;
+  color: green;
 }
 
 .time h5 {
@@ -654,28 +712,93 @@
   font-size: 10px;
 }
 
-.card {
-  height: 250px;
-  margin-top: 50px;
+.card-up {
+  margin-top: 48px;
 }
 
-.timer-cart-all {
+.card-up .card {
   position: relative;
-}
-
-.timer-cart2 {
-  position: absolute;
-  top: 400px;
-  left: 350px;
-}
-
-.basket2 {
+  width: 230px;
   height: 400px;
 }
 
-.basket2 img {
+.card-up .card img {
+  width: 140px;
+  margin-left: 20px;
+}
+
+.card-up .card a {
+  color: black;
+  text-decoration: none;
+}
+
+.card-up .card p {
+  font-size: 10px;
+  color: green;
+  margin-top: 20px;
+}
+
+.card-up .card h5 {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.card-up .card .icons i {
+  color: orange;
+  font-size: 10px;
+}
+
+.card-up .card:hover .card-body {
+  height: 450px;
+  width: 230px;
+}
+
+.card-up .card:hover .heart {
+  display: block;
+}
+
+.card-up .card:hover .btns {
+  display: block;
+}
+
+.card-up .card:hover .exs {
+  display: block;
+}
+
+.card-up .heart {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.card-up .btns {
+  display: none;
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  background-color: darkblue;
+  border-radius: 15px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 0px;
   width: 200px;
-  margin-left: 50px;
+  height: 35px;
+}
+
+.card-up .exs {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 185px;
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
 }
 
 .flex-image {
@@ -684,12 +807,47 @@
   display: flex;
   width: 100%;
   margin-top: 60px;
+  position: relative;
+}
+
+.flex-image .image1 .writes {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.flex-image .image2 .writes {
+  position: absolute;
+  top: 50px;
+  right: 220px;
 }
 
 .flex-image img {
+  position: relative;
+  left: 0;
   width: 550px;
-  height: 230px;
+  height: 250px;
   margin-left: 20px;
+  border-radius: 10px;
+}
+
+.best {
+  margin-top: 50px;
+}
+
+.best .span2 {
+  position: relative;
+  margin-top: -50px;
+}
+
+.best .span2 i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.caruls {
+  margin-top: 50px;
 }
 
 .caruls .card {
@@ -788,7 +946,7 @@
           align-items: center;
 }
 
-.caruls .card h6, .card-very .card h6, .card-very2 .card h6 {
+.card-up .card h6, .caruls .card h6, .card-very .card h6, .card-very2 .card h6 {
   background-color: aqua;
   color: white;
   width: 50px;
@@ -809,7 +967,7 @@
 .card-very .card {
   position: relative;
   width: 230px;
-  height: 460px;
+  height: 160px;
 }
 
 .card-very .card img {
