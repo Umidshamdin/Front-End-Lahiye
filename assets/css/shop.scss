@@ -425,9 +425,80 @@
         color: gray;
     }
 }
+.enter{
+    margin-left: 20px;
+}
+.inputs{
+    margin-left: 20px
+}
 
 .line{
     
-    margin-top: 20px;
    
+    margin-left: 20px;
+   
+}
+.product{
+    margin-top: -30px;
+}
+#shopping{
+    .shop{
+        display: flex;
+        padding: 22px;
+    }
+  
+    .card{
+        width: 130px;
+        position: relative;
+        margin-left: 22px;
+       
+        .icons{
+            i{
+                color: orange;
+            }
+        }
+   
+        img{
+            width: 150px;
+            margin-left: 40px;
+        }
+
+        h5{
+            font-size: 15px;
+        }
+
+        .hearts{
+            display: none;
+            position: absolute;
+            top: 60px;
+            left: 200px;
+            font-size: 35px;
+        }
+        .exson{
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: 200px;
+            font-size: 30px;
+        }
+        .btn{
+            width: 200px;
+            margin-top: 20px;
+            background-color: rgb(2,3,129);
+            display: none;
+        }
+        &:hover .hearts{
+            display: block;
+        }
+        &:hover .btn{
+            display: block;
+        }
+        &:hover .exson{
+            display: block;
+        }
+        
+
+    }
+   
+  
 }

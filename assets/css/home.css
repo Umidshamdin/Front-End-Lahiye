@@ -642,7 +642,7 @@
   border: 2px solid red;
   margin-top: 50px;
   width: 375px;
-  height: 845px;
+  height: 945px;
 }
 
 .time h1 {
@@ -718,13 +718,13 @@
 
 .card-up .card {
   position: relative;
-  width: 230px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
 }
 
 .card-up .card img {
-  width: 140px;
-  margin-left: 20px;
+  width: 130px;
+  margin-left: 35px;
 }
 
 .card-up .card a {
@@ -759,6 +759,7 @@
 
 .card-up .card:hover .btns {
   display: block;
+  margin-top: 0px;
 }
 
 .card-up .card:hover .exs {
@@ -779,7 +780,7 @@
 .card-up .btns {
   display: none;
   position: absolute;
-  top: 350px;
+  top: 370px;
   left: 10px;
   background-color: darkblue;
   border-radius: 15px;
@@ -846,12 +847,8 @@
   top: 5px;
 }
 
-#card-design .card-up .card {
-  width: 333px;
-}
-
-#card-design .card-up .card img {
-  width: 10px;
+.owl-carousel .card-up .card img {
+  width: 130px;
 }
 
 .save {
@@ -870,7 +867,7 @@
           align-items: center;
 }
 
-.card-up .card h6, .card-very .card h6, .card-very2 .card h6 {
+.card-up .card h6 {
   background-color: aqua;
   color: white;
   width: 50px;
@@ -882,174 +879,6 @@
           justify-content: center;
   margin-top: 10px;
   margin-left: 10px;
-}
-
-.card-very {
-  width: 100%;
-}
-
-.card-very .card {
-  position: relative;
-  width: 230px;
-  height: 160px;
-}
-
-.card-very .card img {
-  width: 180px;
-  margin-left: 20px;
-}
-
-.card-very .card a {
-  color: black;
-  text-decoration: none;
-}
-
-.card-very .card p {
-  font-size: 10px;
-  color: green;
-  margin-top: 20px;
-}
-
-.card-very .card h5 {
-  margin-top: 10px;
-  font-size: 15px;
-}
-
-.card-very .card .icons i {
-  color: orange;
-  font-size: 10px;
-}
-
-.card-very .card:hover .heart {
-  display: block;
-}
-
-.card-very .card:hover .btns {
-  display: block;
-}
-
-.card-very .card:hover .exs {
-  display: block;
-}
-
-.card-very .heart {
-  display: none;
-  position: absolute;
-  top: 50px;
-  left: 180px;
-  font-size: 30px;
-  color: black;
-  background-color: white;
-  cursor: pointer;
-}
-
-.card-very .btns {
-  display: none;
-  position: absolute;
-  top: 400px;
-  left: 10px;
-  background-color: darkblue;
-  border-radius: 15px;
-  color: white;
-  margin-left: 5px;
-  margin-top: 15px;
-  width: 200px;
-  height: 35px;
-}
-
-.card-very .exs {
-  display: none;
-  position: absolute;
-  top: 15px;
-  left: 185px;
-  font-size: 25px;
-  color: black;
-  background-color: white;
-  cursor: pointer;
-}
-
-.card-very2 {
-  width: 100%;
-}
-
-.card-very2 .card {
-  position: absolute;
-  width: 230px;
-  height: 480px;
-}
-
-.card-very2 .card img {
-  width: 200px;
-  margin-left: 20px;
-}
-
-.card-very2 .card a {
-  color: black;
-  text-decoration: none;
-}
-
-.card-very2 .card p {
-  font-size: 10px;
-  color: green;
-  margin-top: 20px;
-}
-
-.card-very2 .card h5 {
-  margin-top: 10px;
-  font-size: 15px;
-}
-
-.card-very2 .card .icons i {
-  color: orange;
-  font-size: 10px;
-}
-
-.card-very2 .card:hover .heart {
-  display: block;
-}
-
-.card-very2 .card:hover .btns {
-  display: block;
-}
-
-.card-very2 .card:hover .exs {
-  display: block;
-}
-
-.card-very2 .heart {
-  display: none;
-  position: absolute;
-  top: 50px;
-  left: 180px;
-  font-size: 30px;
-  color: black;
-  background-color: white;
-  cursor: pointer;
-}
-
-.card-very2 .btns {
-  display: none;
-  position: absolute;
-  top: 400px;
-  left: 10px;
-  background-color: darkblue;
-  border-radius: 15px;
-  color: white;
-  margin-left: 5px;
-  margin-top: 15px;
-  width: 200px;
-  height: 35px;
-}
-
-.card-very2 .exs {
-  display: none;
-  position: absolute;
-  top: 15px;
-  left: 185px;
-  font-size: 25px;
-  color: black;
-  background-color: white;
-  cursor: pointer;
 }
 
 #images .imgs {

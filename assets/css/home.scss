@@ -589,7 +589,7 @@
       border: 2px solid red;
       margin-top:50px;
       width: 375px;
-      height: 845px;
+      height: 945px;
       h1{
           background-color: red;
           width: 70px;
@@ -659,14 +659,14 @@
         
         .card{
             position: relative;
-            width: 230px;
-            height: 400px;
+            width: 250px;
+            height: 450px;
             h6{
                @extend %extend-h6;
             }
             img{
-                width: 140px;
-                margin-left: 20px;
+                width: 130px;
+                margin-left: 35px;
             }
             a{
                 color: black;
@@ -696,6 +696,7 @@
             }
             &:hover .btns{
                 display: block;
+                margin-top: 0px;
             }
             &:hover .exs{
                 display: block;
@@ -724,7 +725,7 @@
         %extend-btn{
             display: none;
             position: absolute;
-            top: 350px;
+            top: 370px;
             left: 10px;
             background-color: darkblue;
             border-radius: 15px;
@@ -788,6 +789,16 @@
             }
             
         }
+    }
+    .owl-carousel{
+        .card-up{
+            .card{
+                img{
+                    width: 130px;
+                }
+            }
+        }
+
     }
     
     
@@ -879,17 +890,17 @@
     //         cursor: pointer;
     //     }
     // }   
-#card-design{
-    .card-up{
-        .card{
-            width: 333px;
-            img{
-                width: 10px;
-            }
-        }
-    }
+// #card-design{
+//     .card-up{
+//         .card{
+//             width: 333px;
+//             img{
+//                 width: 10px;
+//             }
+//         }
+//     }
 
-}
+// }
     
     .save{
         margin-top: 50px;
@@ -914,178 +925,178 @@
         margin-top: 10px;
         margin-left: 10px;
     }
-    .card-very{
-        width: 100%;
-        .card{
-            position: relative;
-            width: 230px;
-            height: 160px;
-            h6{
-               @extend %extend-h6;
-            }
-            img{
-                width: 180px;
-                margin-left: 20px;
-            }
-            a{
-                color: black;
-                text-decoration: none;
-            }
-            p{
-                font-size: 10px;
-                color: green;
-                margin-top: 20px;
-            }
-            h5{
-                margin-top: 10px;
-                font-size: 15px;
-            }
-            .icons{
-                i{
-                    color: orange;
-                    font-size: 10px;
-                }
-            }
-            &:hover .heart{
-                display: block;
-            }
-            &:hover .btns{
-                display: block;
-            }
-            &:hover .exs{
-                display: block;
-            }
-        }
-        .heart{
-            @extend %extend-heart;
-        }
-        .exs{
-            @extend %extend-expand;
+    // .card-very{
+    //     width: 100%;
+    //     .card{
+    //         position: relative;
+    //         width: 230px;
+    //         height: 160px;
+    //         h6{
+    //            @extend %extend-h6;
+    //         }
+    //         img{
+    //             width: 180px;
+    //             margin-left: 20px;
+    //         }
+    //         a{
+    //             color: black;
+    //             text-decoration: none;
+    //         }
+    //         p{
+    //             font-size: 10px;
+    //             color: green;
+    //             margin-top: 20px;
+    //         }
+    //         h5{
+    //             margin-top: 10px;
+    //             font-size: 15px;
+    //         }
+    //         .icons{
+    //             i{
+    //                 color: orange;
+    //                 font-size: 10px;
+    //             }
+    //         }
+    //         &:hover .heart{
+    //             display: block;
+    //         }
+    //         &:hover .btns{
+    //             display: block;
+    //         }
+    //         &:hover .exs{
+    //             display: block;
+    //         }
+    //     }
+    //     .heart{
+    //         @extend %extend-heart;
+    //     }
+    //     .exs{
+    //         @extend %extend-expand;
            
-        }
-         .btns{
-            @extend %extend-btn
-         }
-        %extend-heart{
-            display: none;
-            position: absolute;
-            top: 50px;
-            left: 180px;
-            font-size: 30px;
-            color: black;
-            background-color: white;
-            cursor: pointer;
-        }
-        %extend-btn{
-            display: none;
-            position: absolute;
-            top: 400px;
-            left: 10px;
-            background-color: darkblue;
-            border-radius: 15px;
-            color: white;
-            margin-left: 5px;
-            margin-top: 15px;
-            width: 200px;
-            height: 35px;
-        }
-        %extend-expand{
-            display: none;
-            position: absolute;
-            top: 15px;
-            left: 185px;
-            font-size: 25px;
-            color: black;
-            background-color: white;
-            cursor: pointer;
-        }
-    }
-    .card-very2{
-        width: 100%;
+    //     }
+    //      .btns{
+    //         @extend %extend-btn
+    //      }
+    //     %extend-heart{
+    //         display: none;
+    //         position: absolute;
+    //         top: 50px;
+    //         left: 180px;
+    //         font-size: 30px;
+    //         color: black;
+    //         background-color: white;
+    //         cursor: pointer;
+    //     }
+    //     %extend-btn{
+    //         display: none;
+    //         position: absolute;
+    //         top: 400px;
+    //         left: 10px;
+    //         background-color: darkblue;
+    //         border-radius: 15px;
+    //         color: white;
+    //         margin-left: 5px;
+    //         margin-top: 15px;
+    //         width: 200px;
+    //         height: 35px;
+    //     }
+    //     %extend-expand{
+    //         display: none;
+    //         position: absolute;
+    //         top: 15px;
+    //         left: 185px;
+    //         font-size: 25px;
+    //         color: black;
+    //         background-color: white;
+    //         cursor: pointer;
+    //     }
+    // }
+    // .card-very2{
+    //     width: 100%;
         
-        .card{
-            position: absolute;
-            width: 230px;
-            height: 480px;
-            h6{
-               @extend %extend-h6;
-            }
-            img{
-                width: 200px;
-                margin-left: 20px;
-            }
-            a{
-                color: black;
-                text-decoration: none;
-            }
-            p{
-                font-size: 10px;
-                color: green;
-                margin-top: 20px;
-            }
-            h5{
-                margin-top: 10px;
-                font-size: 15px;
-            }
-            .icons{
-                i{
-                    color: orange;
-                    font-size: 10px;
-                }
-            }
-            &:hover .heart{
-                display: block;
-            }
-            &:hover .btns{
-                display: block;
-            }
-            &:hover .exs{
-                display: block;
-            }
-        }
-        .heart{
-            @extend %extend-heart;
-        }
-        .exs{
-            @extend %extend-expand;
-        }
-         .btns{
-            @extend %extend-btn
-         }
-        %extend-heart{
-            display: none;
-            position: absolute;
-            top: 50px;
-            left: 180px;
-            font-size: 30px;
-            color: black;
-            background-color: white;
-            cursor: pointer;
-        }
-        %extend-btn{
-            display: none;
-            position: absolute;
-            top: 400px;
-            left: 10px;
-            background-color: darkblue;
-            border-radius: 15px;
-            color: white;
-            margin-left: 5px;
-            margin-top: 15px;
-            width: 200px;
-            height: 35px;
-        }
-        %extend-expand{
-            display: none;
-            position: absolute;
-            top: 15px;
-            left: 185px;
-            font-size: 25px;
-            color: black;
-            background-color: white;
-            cursor: pointer;
-        }
-    }
+    //     .card{
+    //         position: absolute;
+    //         width: 230px;
+    //         height: 480px;
+    //         h6{
+    //            @extend %extend-h6;
+    //         }
+    //         img{
+    //             width: 200px;
+    //             margin-left: 20px;
+    //         }
+    //         a{
+    //             color: black;
+    //             text-decoration: none;
+    //         }
+    //         p{
+    //             font-size: 10px;
+    //             color: green;
+    //             margin-top: 20px;
+    //         }
+    //         h5{
+    //             margin-top: 10px;
+    //             font-size: 15px;
+    //         }
+    //         .icons{
+    //             i{
+    //                 color: orange;
+    //                 font-size: 10px;
+    //             }
+    //         }
+    //         &:hover .heart{
+    //             display: block;
+    //         }
+    //         &:hover .btns{
+    //             display: block;
+    //         }
+    //         &:hover .exs{
+    //             display: block;
+    //         }
+    //     }
+    //     .heart{
+    //         @extend %extend-heart;
+    //     }
+    //     .exs{
+    //         @extend %extend-expand;
+    //     }
+    //      .btns{
+    //         @extend %extend-btn
+    //      }
+    //     %extend-heart{
+    //         display: none;
+    //         position: absolute;
+    //         top: 50px;
+    //         left: 180px;
+    //         font-size: 30px;
+    //         color: black;
+    //         background-color: white;
+    //         cursor: pointer;
+    //     }
+    //     %extend-btn{
+    //         display: none;
+    //         position: absolute;
+    //         top: 400px;
+    //         left: 10px;
+    //         background-color: darkblue;
+    //         border-radius: 15px;
+    //         color: white;
+    //         margin-left: 5px;
+    //         margin-top: 15px;
+    //         width: 200px;
+    //         height: 35px;
+    //     }
+    //     %extend-expand{
+    //         display: none;
+    //         position: absolute;
+    //         top: 15px;
+    //         left: 185px;
+    //         font-size: 25px;
+    //         color: black;
+    //         background-color: white;
+    //         cursor: pointer;
+    //     }
+    // }
 
     #images{
         .imgs{
