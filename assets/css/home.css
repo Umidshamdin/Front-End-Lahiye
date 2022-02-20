@@ -897,6 +897,16 @@
   padding: 10px;
 }
 
+#images .imgs .writes {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#images .imgs .write2 {
+  margin-left: 20px;
+}
+
 #fin {
   margin-top: 130px;
 }

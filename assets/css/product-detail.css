@@ -501,7 +501,25 @@
 
 #detail .cols .write p {
   margin-left: 50px;
-  margin-top: 0px;
+}
+
+#detail .cols .write span {
+  margin-left: 50px;
+}
+
+#detail .cols .write .iconss {
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#detail .cols .write a {
+  color: black;
+}
+
+#detail .cols .write .type {
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 #detail .cols .write .one {
@@ -522,5 +540,192 @@
   left: 200px;
   width: 200px;
   height: 50px;
+}
+
+#detail .cols .write3 {
+  margin-top: 130px;
+  margin-left: -90px;
+}
+
+#detail .cols .write3 p {
+  width: 270px;
+  font-size: 13px;
+}
+
+#detail .cols .write3 span {
+  width: 120px;
+  font-size: 14px;
+}
+
+.card {
+  width: 130px;
+  position: relative;
+  margin-left: 22px;
+  margin-top: 100px;
+}
+
+.card .icons i {
+  color: orange;
+}
+
+.card img {
+  width: 150px;
+  margin-left: 40px;
+}
+
+.card h5 {
+  font-size: 15px;
+}
+
+.card .hearts {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  font-size: 35px;
+}
+
+.card .exson {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  font-size: 30px;
+}
+
+.card .btn {
+  width: 200px;
+  margin-top: 20px;
+  background-color: #020381;
+  display: none;
+}
+
+.card:hover .hearts {
+  display: block;
+}
+
+.card:hover .btn {
+  display: block;
+}
+
+.card:hover .exson {
+  display: block;
+}
+
+#fin {
+  margin-top: 130px;
+}
+
+#fin .finish {
+  position: relative;
+  background-color: #233a95;
+  width: 100%;
+  height: 150px;
+  padding: 200px;
+}
+
+#fin .finish h3 {
+  color: white;
+}
+
+#fin .finish p {
+  color: gray;
+}
+
+#fin .finish h5 {
+  color: white;
+}
+
+#fin .finish .input .one {
+  width: 500px;
+  height: 60px;
+  position: relative;
+}
+
+#fin .finish .input .two {
+  width: 120px;
+  margin-left: 20px;
+  background-color: #233a95;
+  color: white;
+  position: absolute;
+  left: 550px;
+  top: 330px;
+}
+
+#fin .finish .image img {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  right: 200px;
+  top: 200px;
+}
+
+#fiss .row {
+  margin-top: 200px;
+}
+
+#fiss .row .uls {
+  margin-left: 20px;
+  list-style: none;
+}
+
+#fiss .row .uls a {
+  color: black;
+  text-decoration: none;
+}
+
+#fiss .row .uls ul {
+  list-style: none;
+  padding: 20px;
+}
+
+#tele .row {
+  margin-top: 100px;
+  position: relative;
+}
+
+#tele .row p {
+  font-size: 10px;
+}
+
+#tele .row .ivonss {
+  position: absolute;
+}
+
+#tele .row .down {
+  margin-left: 470px;
+}
+
+#tele .row .down h5 {
+  font-size: 16px;
+}
+
+#tele .row .down p {
+  font-size: 15px;
+}
+
+#tele .row .icon {
+  margin-left: 100px;
+}
+
+#tele .row .copy p {
+  font-size: 12px;
+  margin-left: -100px;
+}
+
+#tele .row .polisy {
+  margin-left: 20px;
+}
+
+#tele .row .polisy a {
+  padding: 4px;
+  margin-left: 8px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+#tele .row .payment {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=product-detail.css.map */
