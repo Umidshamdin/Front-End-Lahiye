@@ -461,190 +461,66 @@
   color: gray;
 }
 
-#reklam .sosial {
-  margin-left: 50px;
-}
-
-#reklam .finish {
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-#reklam .finish img {
-  width: 250px;
-}
-
-#reklam .finish .tag a {
+.enter a {
   color: black;
-  text-decoration: none;
-}
-
-#reklam .finish span {
-  border: 1px solid black;
-  width: 50px;
-  text-align: center;
-  margin-left: 3px;
-}
-
-#reklam .image {
-  margin-top: 50px;
-}
-
-#reklam .image img {
-  width: 750px;
-  height: 600px;
-}
-
-#reklam .post {
-  position: relative;
-}
-
-#reklam .post .post1 .images img {
-  border-radius: 50px;
-  width: 65px;
-  position: absolute;
-  top: 170px;
-  left: 50px;
-}
-
-#reklam .post .post1 .images span {
-  position: absolute;
-  top: 170px;
-  left: 120px;
-  width: 210px;
-}
-
-#reklam .post .form-control {
-  margin-top: 50px;
-  width: 310px;
-}
-
-#reklam .post i {
-  position: absolute;
-  left: 280px;
-  top: 10px;
-  cursor: pointer;
-}
-
-#reklam .post h5 {
-  position: absolute;
-  top: 10px;
-}
-
-#fin {
-  margin-top: 130px;
-}
-
-#fin .finish {
-  position: relative;
-  background-color: #233a95;
-  width: 100%;
-  height: 150px;
-  padding: 200px;
-}
-
-#fin .finish h3 {
-  color: white;
-}
-
-#fin .finish p {
-  color: gray;
-}
-
-#fin .finish h5 {
-  color: white;
-}
-
-#fin .finish .input .one {
-  width: 500px;
-  height: 60px;
-  position: relative;
-}
-
-#fin .finish .input .two {
-  width: 120px;
-  margin-left: 20px;
-  background-color: #233a95;
-  color: white;
-  position: absolute;
-  left: 550px;
-  top: 330px;
-}
-
-#fin .finish .image img {
-  position: absolute;
-  width: 500px;
-  height: 200px;
-  right: 200px;
-  top: 200px;
-}
-
-#fiss .row {
-  margin-top: 200px;
-}
-
-#fiss .row .uls {
-  margin-left: 20px;
-  list-style: none;
-}
-
-#fiss .row .uls a {
-  color: black;
-  text-decoration: none;
-}
-
-#fiss .row .uls ul {
-  list-style: none;
-  padding: 20px;
-}
-
-#tele .row {
-  margin-top: 100px;
-  position: relative;
-}
-
-#tele .row p {
-  font-size: 10px;
-}
-
-#tele .row .ivonss {
-  position: absolute;
-}
-
-#tele .row .down {
-  margin-left: 470px;
-}
-
-#tele .row .down h5 {
-  font-size: 16px;
-}
-
-#tele .row .down p {
-  font-size: 15px;
-}
-
-#tele .row .icon {
-  margin-left: 100px;
-}
-
-#tele .row .copy p {
   font-size: 12px;
-  margin-left: -100px;
 }
 
-#tele .row .polisy {
-  margin-left: 20px;
+.carusel {
+  position: relative;
 }
 
-#tele .row .polisy a {
-  padding: 4px;
-  margin-left: 8px;
-  font-size: 15px;
-  color: black;
-  text-decoration: none;
+.carusel p {
+  position: absolute;
+  top: 0;
 }
 
-#tele .row .payment {
-  margin-left: 20px;
+#detail .ovl {
+  margin-top: 50px;
 }
-/*# sourceMappingURL=blog.css.map */
+
+#detail .ovl h1 {
+  width: 800px;
+  font-size: 25px;
+}
+
+#detail .ovl .star i {
+  color: orange;
+}
+
+#detail #owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#detail .cols .write {
+  margin-top: 140px;
+  position: relative;
+}
+
+#detail .cols .write p {
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+#detail .cols .write .one {
+  position: absolute;
+  top: 155px;
+  left: 110px;
+}
+
+#detail .cols .write .ones {
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+#detail .cols .write .btn {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  width: 200px;
+  height: 50px;
+}
+/*# sourceMappingURL=product-detail.css.map */

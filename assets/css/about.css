@@ -81,6 +81,14 @@
   z-index: 1;
 }
 
+#header .select .dropdown .dropdown-content ul {
+  list-style: none;
+}
+
+#header .select .dropdown .dropdown-content ul li:hover a {
+  color: #2bbef9;
+}
+
 #header .select .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -160,6 +168,10 @@
   text-decoration: none;
 }
 
+#header .location .modal-body ul li .upp {
+  margin-left: 70px;
+}
+
 #header .location .modal-body ul li:hover a {
   color: #2bbef9;
 }
@@ -199,6 +211,10 @@
   cursor: pointer;
 }
 
+#header .login-basket a {
+  color: black;
+}
+
 .home-list .btn-primary {
   background-color: #2bbef9;
   width: 180px;
@@ -228,8 +244,8 @@
 }
 
 .home-list .dropdown-menu {
-  height: 399px;
-  width: 250px;
+  height: 330px;
+  width: 300px;
   text-align: center;
 }
 
@@ -257,21 +273,33 @@
 }
 
 .home-list .dropdown-menu ul li .dropdown {
-  margin-left: 20px;
-  width: 200px;
+  margin-left: 15px;
+  width: 250px;
 }
 
 .home-list .dropdown-menu ul li .dropdown .dropdown-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: 1px solid white;
   text-align: center;
-  height: 140px;
-  width: 120px;
+  height: 400px;
+  width: 250px;
+  margin-left: 106px;
   display: none;
   position: absolute;
   top: 0;
   left: 165px;
   background-color: #f1f1f1;
   z-index: 10;
+}
+
+.home-list .dropdown-menu ul li .dropdown .dropdown-content ul {
+  list-style: none;
+}
+
+.home-list .dropdown-menu ul li .dropdown .dropdown-content ul li:hover a {
+  color: #2bbef9;
 }
 
 .home-list .dropdown-menu ul li .dropdown-content a {
@@ -433,10 +461,21 @@
   color: gray;
 }
 
+#image {
+  position: relative;
+}
+
 #image img {
   margin-top: 15px;
   width: 100%;
   height: 650px;
+  position: relative;
+}
+
+#image .center {
+  position: absolute;
+  top: 300px;
+  left: 500px;
 }
 
 #image .row {
@@ -499,5 +538,122 @@
 
 #finish .row p {
   margin-top: 100px;
+}
+
+#fin {
+  margin-top: 330px;
+}
+
+#fin .finish {
+  position: relative;
+  background-color: #233a95;
+  width: 100%;
+  height: 150px;
+  padding: 200px;
+}
+
+#fin .finish h3 {
+  color: white;
+}
+
+#fin .finish p {
+  color: gray;
+}
+
+#fin .finish h5 {
+  color: white;
+}
+
+#fin .finish .input .one {
+  width: 500px;
+  height: 60px;
+  position: relative;
+}
+
+#fin .finish .input .two {
+  width: 120px;
+  margin-left: 20px;
+  background-color: #233a95;
+  color: white;
+  position: absolute;
+  left: 550px;
+  top: 330px;
+}
+
+#fin .finish .image img {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  right: 200px;
+  top: 200px;
+}
+
+#fiss .row {
+  margin-top: 200px;
+}
+
+#fiss .row .uls {
+  margin-left: 20px;
+  list-style: none;
+}
+
+#fiss .row .uls a {
+  color: black;
+  text-decoration: none;
+}
+
+#fiss .row .uls ul {
+  list-style: none;
+  padding: 20px;
+}
+
+#tele .row {
+  margin-top: 100px;
+  position: relative;
+}
+
+#tele .row p {
+  font-size: 10px;
+}
+
+#tele .row .ivonss {
+  position: absolute;
+}
+
+#tele .row .down {
+  margin-left: 470px;
+}
+
+#tele .row .down h5 {
+  font-size: 16px;
+}
+
+#tele .row .down p {
+  font-size: 15px;
+}
+
+#tele .row .icon {
+  margin-left: 100px;
+}
+
+#tele .row .copy p {
+  font-size: 12px;
+  margin-left: -100px;
+}
+
+#tele .row .polisy {
+  margin-left: 20px;
+}
+
+#tele .row .polisy a {
+  padding: 4px;
+  margin-left: 8px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+#tele .row .payment {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=about.css.map */
